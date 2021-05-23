@@ -1,0 +1,65 @@
+<html>
+<style>
+body
+.topnav {
+  background-color: purple;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #330033;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #003800;
+  color: white;
+}
+.topnav a.active {
+  background-color: #330033;
+  color: white;
+}
+
+h1 { color: white;
+}
+h2 {color: white;
+   text-align: center;
+}
+
+
+table#Tabelle1 {
+ border: 5px solid #330033 ;
+}
+
+table#Tabelle1 tr {
+ background-color: #003800
+
+}
+
+table#Tabelle1 th {
+ text-align: center;
+ color: white;
+ background-color: #330033;
+ padding: 4px 4px 2px 4px;
+
+}
+
+table#Tabelle1 td {
+  text-align: center;
+ color:  white;
+ border: 1px solid #330033;
+ padding: 2px;
+ width: 300px;
+}
+table#Tabelle1 tr:last-of-type td {
+ background-color: #330033;
+ text-align: center;
+}
+
+p {
+  font-size:20px;
+}
+</style>
+</html>
